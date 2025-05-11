@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/mutual-bank/static/css/main.f855e6bc.css",
-    "main.js": "/mutual-bank/static/js/main.a8638b8d.js",
+    "main.css": "/mutual-bank/static/css/main.dce4a61e.css",
+    "main.js": "/mutual-bank/static/js/main.b3b7862f.js",
     "static/js/453.b86339ef.chunk.js": "/mutual-bank/static/js/453.b86339ef.chunk.js",
-    "static/media/logo.svg": "/mutual-bank/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/mutual-bank/index.html",
-    "main.f855e6bc.css.map": "/mutual-bank/static/css/main.f855e6bc.css.map",
-    "main.a8638b8d.js.map": "/mutual-bank/static/js/main.a8638b8d.js.map",
+    "main.dce4a61e.css.map": "/mutual-bank/static/css/main.dce4a61e.css.map",
+    "main.b3b7862f.js.map": "/mutual-bank/static/js/main.b3b7862f.js.map",
     "453.b86339ef.chunk.js.map": "/mutual-bank/static/js/453.b86339ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.a8638b8d.js"
+    "static/css/main.dce4a61e.css",
+    "static/js/main.b3b7862f.js"
   ]
 }
