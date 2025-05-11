@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { useWeb3 } from '../contexts/Web3Context';
 import { getMutualBankContract } from '../utils/contract';
 import { ethers } from 'ethers';
+import { CONTRACT_ADDRESS } from '../config/contracts';
 
 export const useReferrer = () => {
   const { signer, account, isConnected } = useWeb3();
@@ -24,6 +25,9 @@ export const useReferrer = () => {
       const contract = getMutualBankContract(signer);
       
       console.log('调用合约 getUserInfo:', account);
+      console.log('合约地址:', CONTRACT_ADDRESS);
+      console.log('合约实例:', contract);
+      
       const [userTotalStaked, referrerAddress, totalReferred, currentStakingRate, currentReferralRate] = await contract.getUserInfo(account);
       
       console.log('合约返回的用户信息:', {
