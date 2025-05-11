@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mutual-bank/static/css/main.40df3699.css",
-    "main.js": "/mutual-bank/static/js/main.fe689191.js",
+    "main.js": "/mutual-bank/static/js/main.c9ebd06d.js",
     "index.html": "/mutual-bank/index.html",
     "main.40df3699.css.map": "/mutual-bank/static/css/main.40df3699.css.map",
-    "main.fe689191.js.map": "/mutual-bank/static/js/main.fe689191.js.map"
+    "main.c9ebd06d.js.map": "/mutual-bank/static/js/main.c9ebd06d.js.map"
   },
   "entrypoints": [
     "static/css/main.40df3699.css",
-    "static/js/main.fe689191.js"
+    "static/js/main.c9ebd06d.js"
   ]
 }
